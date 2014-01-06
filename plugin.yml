@@ -1,0 +1,27 @@
+name: TGCSurvival
+main: me.TGC.TGCSurvival.Main
+version: 0.1
+depend: [Vault]
+
+commands:
+    shout:
+        description: shouts a message
+        usage: /shout <message...>
+    s:
+        description: The main survival command
+    tpa:
+        description: request to teleport to someone
+    tpaccept:
+        description: accept a tpa request
+    tpdeny:
+        description: deny a tpa request
+    home:
+        description: takes you to your home
+    sethome:
+        description: Sets your home
+    delhome:
+        description: Removes your home
+    head:
+        description: Renames the head you have
+    rename:
+        description: Renames the item in your hand
